@@ -1,0 +1,16 @@
+defined_text = {
+	name = bst_total_color
+
+	text = {
+			trigger = {
+					check_variable_arithmetic = { which = bst_total_int value > 0 }
+			}
+			localization_key = bst_bad_color
+	}
+	text = {
+			trigger = {
+					check_variable_arithmetic = { which = bst_total_int value = 0 }
+			}
+			localization_key = bst_good_color
+	}
+}

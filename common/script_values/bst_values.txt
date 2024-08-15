@@ -1,0 +1,13 @@
+bst_total_int = {
+	weight = this.planet_max_buildings_add
+	min = 0
+	subtract = DIF_PLANET_BUILDING_SLOTS
+	complex_trigger_modifier = {
+		potential = {
+			is_scope_type = planet
+			exists = owner
+		}
+		trigger = free_building_slots
+		mode = subtract
+	}
+}

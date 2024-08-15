@@ -1,4 +1,4 @@
-bst_total_int = {
+bst_total = {
 	weight = this.planet_max_buildings_add
 	min = 0
 	subtract = DIF_PLANET_BUILDING_SLOTS
